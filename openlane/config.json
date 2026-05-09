@@ -1,0 +1,30 @@
+{
+    "DESIGN_NAME": "mac_mas_top",
+
+    "VERILOG_FILES": [
+        "../rtl/mac_mas_top.v",
+        "../rtl/fpmul.v",
+        "../rtl/fp16sum_res_pipe.v",
+        "../rtl/add_renorm.v",
+        "../rtl/exp_mant_logic.v",
+        "../rtl/leading_zero_norm.v",
+        "../rtl/myreg.v",
+        "../rtl/op_sign_logic.v",
+        "../rtl/rounder.v",
+        "../rtl/sum_res_pp.v"
+    ],
+
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+    "BASE_SDC_FILE": "constraint.sdc",
+
+    "FP_CORE_UTIL": 40,
+
+    "PL_TARGET_DENSITY": 0.60,
+
+    "SYNTH_STRATEGY": "DELAY 0",
+
+    "SYNTH_BUFFERING": 1,
+
+    "RUN_HEURISTIC_DIODE_INSERTION": true
+}

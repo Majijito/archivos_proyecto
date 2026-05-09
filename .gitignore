@@ -1,0 +1,18 @@
+# OpenLane runs
+openlane/runs/
+
+# Simulation binaries
+sim/mac_sim
+*.vvp
+
+# GTKWave
+*.gtkw
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+
+# VSCode
+.vscode/
